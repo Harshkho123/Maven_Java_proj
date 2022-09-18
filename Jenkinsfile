@@ -12,7 +12,6 @@ pipeline{
                 }
             }
                 echo "Build the stage"
-                params.Str
             }
             }
 stage("Test")
