@@ -8,7 +8,7 @@ pipeline{
             steps{ 
                 when{
                   expression{
-                     params.Version
+                     params.Version == 1.2
                 }
             }
                 echo "Build the stage"
